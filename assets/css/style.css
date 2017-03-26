@@ -1214,29 +1214,22 @@ Icon for all respective meta
     display: block;
     text-transform: uppercase;
 }
-.hobbies-form strong {
-    margin-bottom: 40px;
-}
-
-.hobbies-form textarea.form-control {
-    height: 115px;
-}
-
-.hobbies-form .btn {
-    margin-top: 15px;
-}
 
 .hobbies-section div > i{
     float: left;
     font-size: 45px;
     margin-right: 20px;
 }
-.hobbies-section address,
-.hobbies-section .hobbies-number {
-    overflow: hidden;
-    line-height: 30px;
-    font-weight: 400;
-    margin-bottom: 45px
+
+.img-hobbies {
+    width: 100px;
+    height: 100px;
+	border: 5px solid #529b9b;
+	background: #ff7f00;
+}
+
+.img-hobbies a i:hover::after{
+    z-index: 0;
 }
 
 
@@ -1546,7 +1539,7 @@ Icon for all respective meta
 }
 
 .img-circle{
-	border: 5px solid #529b9b;
+	border: 4px solid #529b9b;
 	background: #ff7f00;
 }
 
