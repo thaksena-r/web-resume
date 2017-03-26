@@ -269,7 +269,7 @@ ul.list-check li{
 }
 ul.list-check li::before {
     content: "\f00c";
-    font-family: fontawesome;
+    font-family: 'Roboto', sans-serif;
     color: #37577c;
     margin-right: 10px;
 }
@@ -365,7 +365,9 @@ box-shadow: 30px 0 #529b9b, -30px 0 #529b9b;
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 17px;
+	text-shadow: 2px 2px black;
+	font-family: 'Roboto', sans-serif;
 }
 
 .intro-sub {
@@ -452,7 +454,7 @@ SOCIAL ICON
     margin: 0;
     text-transform: uppercase;
 	text-shadow: 1px 1px black;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1198,7 +1200,7 @@ Icon for all respective meta
 .the-time::before,
 .the-share::before,
 .the-comments::before{
-    font-family: FontAwesome;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 0;
 }
@@ -1548,7 +1550,7 @@ Icon for all respective meta
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
 }
 
